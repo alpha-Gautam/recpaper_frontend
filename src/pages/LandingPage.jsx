@@ -3,6 +3,7 @@ import React from "react";
 // import SearchBox from "./SearchBox";
 import paperPhoto from "../assets/images/paper-photo.jpg";
 import NavBar from "./NavBar";
+import Footer from "./Footer";
 
 const LandingPage = () => {
   const cardsData = [
@@ -32,9 +33,9 @@ const LandingPage = () => {
   // }, []);
 
   return (
-    <>
+    <div className="min-h-screen flex flex-col">
       <NavBar />
-      <div className="home bg-black text-white min-h-screen px-4 py-8">
+      <div className="home bg-black text-white flex-1 px-4 py-8">
         <header className="home-header text-center max-w-3xl mx-auto py-12">
           <h2 className="text-4xl font-bold mb-4">REC Kannauj</h2>
           <h3 className="text-3xl font-semibold text-gray-300 mb-6 ">
@@ -64,7 +65,8 @@ const LandingPage = () => {
           ))}
         </div>
       </div>
-    </>
+      <Footer />
+    </div>
   );
 };
 
