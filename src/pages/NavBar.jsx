@@ -12,6 +12,7 @@ function NavBar() {
             REC Kannauj
           </Link>
         </div>
+        <div></div>
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-6">
