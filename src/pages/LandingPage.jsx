@@ -38,7 +38,7 @@ const LandingPage = () => {
       <div className="home bg-black text-white flex-1 px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
         <header className="home-header text-center max-w-3xl mx-auto py-8 sm:py-12 lg:py-16">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4">
-            REC Kannauj
+            REC PAPER
           </h2>
           <h3 className="text-xl sm:text-2xl lg:text-3xl font-semibold text-gray-300 mb-4 sm:mb-6">
             Academic Reports and Research Papers' Platform

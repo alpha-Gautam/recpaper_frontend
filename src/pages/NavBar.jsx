@@ -9,7 +9,7 @@ function NavBar() {
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-lg sm:text-xl font-bold">
           <Link to="/" className="hover:text-gray-300">
-            REC Kannauj
+            REC PAPER
           </Link>
         </div>
 
@@ -28,6 +28,16 @@ function NavBar() {
           <li>
             <Link to="/contact" className="hover:text-gray-300">
               Contact
+            </Link>
+          </li>
+          <li>
+            <Link to="/login" className="hover:text-gray-300">
+              Login
+            </Link>
+          </li>
+          <li>
+            <Link to="/register" className="hover:text-gray-300">
+              Register
             </Link>
           </li>
         </ul>
@@ -82,6 +92,24 @@ function NavBar() {
                 onClick={() => setIsOpen(false)}
               >
                 Contact
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/login"
+                className="block py-2 hover:text-gray-300"
+                onClick={() => setIsOpen(false)}
+              >
+                Login
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/register"
+                className="block py-2 hover:text-gray-300"
+                onClick={() => setIsOpen(false)}
+              >
+                Register
               </Link>
             </li>
           </ul>
