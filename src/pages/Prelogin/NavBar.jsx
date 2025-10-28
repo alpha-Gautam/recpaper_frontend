@@ -5,7 +5,7 @@ function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-black text-white p-4">
+    <nav className="bg-black text-white p-4 px-20">
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-lg sm:text-xl font-bold">
           <Link to="/" className="hover:text-gray-300">
@@ -16,21 +16,6 @@ function NavBar() {
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-6">
           <li>
-            <Link to="/" className="hover:text-gray-300">
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link to="/about" className="hover:text-gray-300">
-              About
-            </Link>
-          </li>
-          <li>
-            <Link to="/contact" className="hover:text-gray-300">
-              Contact
-            </Link>
-          </li>
-          <li>
             <Link to="/login" className="hover:text-gray-300">
               Login
             </Link>
@@ -38,6 +23,11 @@ function NavBar() {
           <li>
             <Link to="/register" className="hover:text-gray-300">
               Register
+            </Link>
+          </li>
+          <li>
+            <Link to="#" className="hover:text-gray-300">
+              Guest Login
             </Link>
           </li>
         </ul>
