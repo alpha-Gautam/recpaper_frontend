@@ -1,7 +1,7 @@
 import React from "react";
 // import { set_cookies } from "./../../api/login";
 // import SearchBox from "./SearchBox";
-import paperPhoto from "../assets/images/paper-photo.jpg";
+import paperPhoto from "../../assets/images/paper-photo.jpg";
 import NavBar from "./NavBar";
 import Footer from "./Footer";
 

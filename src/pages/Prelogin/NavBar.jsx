@@ -30,6 +30,11 @@ function NavBar() {
               Guest Login
             </Link>
           </li>
+          <li>
+            <Link to="/profile" className="hover:text-gray-300">
+              Profile
+            </Link>
+          </li>
         </ul>
 
         {/* Mobile Menu Button */}
