@@ -4,6 +4,7 @@ import Login from "./pages/Prelogin/Login.jsx";
 import Register from "./pages/Prelogin/Register.jsx";
 import "./App.css";
 import ProfilePage from "./pages/PostLogin/ProfilePage.jsx";
+import CreateProject from "./pages/PostLogin/CreateProject.jsx";
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
   {
     path: "/profile",
     element: <ProfilePage />,
+  },
+  {
+    path: "/createproject",
+    element: <CreateProject />,
   },
   // { path: "/Home", element: <HomePage /> },
   // { path: "/About", element: <AboutPage /> },
